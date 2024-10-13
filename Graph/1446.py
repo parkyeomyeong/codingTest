@@ -8,7 +8,7 @@ def dik(graph, distancese, node):
 
     while pq:
         dist, now = heapq.heappop(pq)
-        # 지금까지거리가 현거리보다 크면 이미 방문한거임
+        # 지금까지거리가 현거리보"?다 크면 이미 방문한거임
         if dist > distancese[now] : continue
 
         for n_node, n_dist in graph[now]:
