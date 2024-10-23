@@ -2,7 +2,6 @@ def solution():
     N = int(input())
 
     dp = [[1]*10 for _ in range(N)]
-
     dp[0][0] = 0
 
     #맨 앞에 자리수는 1~9
